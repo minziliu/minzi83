@@ -1,0 +1,13 @@
+list
+create 'student','Sname','Ssex','Sage','Sdept','course'
+describe 'student'
+list
+put 'student','95001','Sname','LiYing'
+put 'student','95001','Ssex','male'
+put 'student','95001','Sage','22'
+put 'student','95001','Sdept','CS'
+put 'student','95001','course:math','80'
+get 'student','95001'
+scan 'student'
+delete 'student','95001','Ssex'
+deleteall 'student','95001'
